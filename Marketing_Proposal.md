@@ -1,60 +1,31 @@
 
 # Marketing Proposal for AI school selection system
 
-## Table of contents
-### [Introduction](#introduction-1)
-### [What is virtualization](#what-is-virtualization-1)
-### [Virtualizing an Windows machine to an Android device](#virtualizing-an-windows-machine-to-an-android-device-1)
-### [Install an APK file on the virtualized windows device](#install-an-apk-file-on-the-virtualized-windows-device-1)
-### [Additional Resources](#additional-resources-1)
-
 ## Introduction
 
-Our AI school selection system is designed to help students and parents make informed decisions about choosing the right school. With this system, we aim to provide personalized recommendations based on the student's preferences and academic achievements. In this proposal, we will outline a mini-marketing plan for how to start marketing and finding targeted customers for our AI school selection system, specifically for students in University of Toronto, Toronto, Canada.
+Our AI school selection system is designed to help students and parents make informed decisions about choosing the right school. With this system, we aim to provide personalized recommendations based on the student's preferences and academic achievements. In this proposal, we will outline a mini-marketing plan for how to start marketing and finding targeted customers for our AI school selection system, specifically for students in **University of Toronto, Toronto, Canada**.
 
-## What is virtualization
+## Step 1: Defining the target audience
 
-Virtualization is the process of creating a virtual version of something, such as a virtual machine, operating system, storage device, or network resource, that operates independently of its physical counterpart. In computing, virtualization enables multiple operating systems to run on a single physical machine, allowing for greater efficiency, flexibility, and cost savings.
+The first step in marketing the AI school selection system to university students is to define the target audience. In this case, the target audience is undergraduate students who are actively searching for and considering graduate school programs. We can further divide the target customers into sub groups by similar majors. The reason for this is that there's a difference in demanding for graduate school education between different subjects. e.g. students from computer science, or accounting programs might prefer to join work force right after graduation, while students from math, physics, chemistry related program might pursue further education. Therefore, doing a pre-survey to locate student demography for high graduate school demands is essential for efficiently put into marketing resources. Coincidentally, in the UofT, similar majored students normally have courses in the same building. From there, we can: <br />
+   1. Hands out some small treats in different buildings, and require students to fill out a survey form. <br />
+   2. In the survey form, collects students' intention for graduate school education, knowledge of AI related tools, knowledge of school selection, their major, etc.<br />
+   3. Quantify the collected responses, and identify a few targeted majors and corresponding buildings. <br />
 
-Virtualization creates a layer of abstraction between the physical hardware and the operating system, applications, or other resources that run on it. This allows multiple virtual machines, each with its own operating system and applications, to run on a single physical server, which can save on hardware costs, power consumption, and data center space.
+## Step 2: Create a social media presence
 
-Virtualization can also be used to create virtual networks, storage devices, and other resources, which can be accessed by multiple users or applications. Virtualization technology has revolutionized the way that IT infrastructure is designed and managed, making it easier and more efficient to deploy and manage complex systems.
+Since the service is mainly chinese-student-oriented, we could promote with following media contents:<br />
+    1. Upload videos on douyin/TikTok that demonstrate the usage of AI selection system.<br />
+    2. Collaborate with local online influencers to post related contents, or sell school selection anxiety, and introduce our tool in the comment section.<br />
+    3. Collaborate with UofT chinese student unions to advertise.<br />
+    4. Advertise on the UofT confession wall. <br />
 
-## Virtualizing an Windows machine to an Android device
+## Step 3: Attend/Organize university events
 
-To virtualize an Windows machine to an Android device, follow the following steps:
-1. Check the virtualization availability on your windows device <br />
-  i) Even though for most modern windows computers, the virtualization functionality is auto-enabled, but it is still a good practice to double check. To do so:<br />
-     a. Go to **task manager** <br />
-     b. Go to **performance** section <br />
-     c. Click on **CPU** <br />
-     d. Check whether virtualization is enabled. <br />
-     e.g.: <br />
-     ![image](https://user-images.githubusercontent.com/74875627/226499401-fde43338-106a-400b-9496-479f09403731.png)!  <br />
-     e. In case it is not enabled, you have to enable it from the BIOS/UEFI interface.
-  ii) Enable the **Virtual Machine Platform** feature. To do so:<br />
-     a. Go to the **Turn Windows features on or off** in control panel by search.  <br />
-     b. Inside it, check the Virtual Machine Platform checkbox. e.g.: <br />
-     ![image](https://user-images.githubusercontent.com/74875627/226499848-2a9d7f23-f254-4554-8fa7-e7d0bda891d6.png)  <br />
-     c. Restart the PC if necessary to make sure the change is executed.
-  iii) Install the windows subsystem for android from the Microsoft store from the following link:   <br />
-     a. [Windows subsystem for android download](https://apps.microsoft.com/store/detail/windows-subsystem-for-android%E2%84%A2-with-amazon-appstore/9P3395VX91NR?hl=en-us&gl=us) <br />
-     b. After installation, open the windows subsystem for android <br />
-     c. Go to the **Developer** section. <br />
-     d. Enable the **Developer mode**  <br />
-     e. Click **Manage developer setting** to connect with local IP. <br />
-  iv) You are done! After the windows subsystem is running normally, your Windows device is pretending itself to be an Android phone, so that you can do various functionalities that is available on Android. <br />
+   1. Based on the target student research we did in step 1, we could set up different size of booth or consulting table in different buildings <br />
+   2. Invite graduate students to share their school selection strategy, and introduce our tool. <br />
+   3. Introduce the tool as limited free trials. <br />
 
-### Install an APK file on the virtualized windows device
-  i) Even though your windows device has already been virtualized as an Android device, and you can run an Android app, you still need additional support to install APK files, that is short for **Android Package Kit**<br />
-  ii) To install APK files, follow <br />
-      a. Download the newest version of WSA Packman from this link: [WSA Packman download](https://github.com/alesimula/wsa_pacman/releases/tag/v1.4.0).<br />
-      b. Install it following default settings.<br />
-      c. Make sure the windows subsystem is running on the background <br />
-      d. Open WSA PackMan and wait until it shows **connected** <br />
-      e. Then, you are good to download any APK files on your device! <br />
+## Conclusion
 
-## Additional Resources
-
-* Source repository for WSA Packman [WSA Packman repository](https://github.com/alesimula/wsa_pacman) <br />
-* To watch a detailed tutorial, go to [Install APK file on windows tutorial](https://www.youtube.com/watch?v=D_AiqB-eVig&t=77s)
+In conclusion, marketing the AI school selection system to university students requires a strategic approach. By researching on target users, creating a social media presence, attending university events, we can effectively reach our target audience and promote the benefits of our system.
